@@ -26,7 +26,7 @@ const MainBar =() =>{
                 <div className="img">
             <img src={Union} className="lo" alt="lo"></img>
             
-            <h1 className="lo">Oasiss.</h1>
+            <h1 className="lo">Oasis.</h1>
             
             </div>
             <p>“ <br></br>The passage experienced a surge in popularity 
