@@ -1,0 +1,155 @@
+.signupcontent{
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 326px;
+height: 24px;
+flex-shrink: 0;
+margin-top: 5%;
+    
+}
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #8692A6;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+h6{
+    position: absolute;
+    flex-direction: column;
+    top: 4%;
+   left: 53%;
+   color: #BDBDBD;
+text-align: right;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.p{
+    /* position: absolute;
+    flex-direction: column;
+    top: 7%;
+   left: 50%; */
+   position: relative;
+   color: #8692A6;
+text-align: right;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+left: 40%;
+}
+.p2{
+    position: relative;
+    color: #8692A6;
+ text-align: right;
+ font-family: Inter;
+ font-size: 10px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: normal;
+ left: 45%;
+ margin-top: -2%;
+}
+.registration-form{
+    width: 426px;
+height: 64px;
+flex-shrink: 0;
+line-height: 37px;
+
+
+}
+h1{
+    margin-top: 20%;
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+p{
+    width: 411px;
+    color: #8692A6;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+}
+
+.registration-form input{
+    width: 426px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 6px;
+border: 1px solid #1565D8;
+background: #FFF;
+box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+
+}
+.registration-form [type = "checkbox"]{
+    width: 16px;
+    height: 14px;
+}
+.registration-form [type = "submit"]{
+    width: 426px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 6px;
+background: #1565D8;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+span{
+    padding-left: 44%;
+    color: #BABABA;
+text-align: center;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.registration-form [type = "button"]{
+    width: 426px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #FFF;
+box-shadow: 0px 4px 10px 0px rgba(235, 10, 10, 0.08);
+color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+label{
+    color: #696F79;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
