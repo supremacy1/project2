@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import Frame1 from '../images/Frame1.png'
 import back from '../images/back.jpg'
 import Union from '../images/Union.svg'
@@ -18,14 +19,14 @@ const MainBar =() =>{
         <>
         
         <div className="maincontainer">
-        <h4 className="headtext">Already have an account?<a href="signup">signup</a></h4>
+        <h4 className="headtext">Already have an account?<Link to="/signup">signup</Link></h4>
         <div className="main">
             
             <div className="content">
                 <div className="img">
             <img src={Union} className="lo" alt="lo"></img>
             
-            <h1 className="lo">Oasis.</h1>
+            <h1 className="lo">Oasiss.</h1>
             
             </div>
             <p>“ <br></br>The passage experienced a surge in popularity 
