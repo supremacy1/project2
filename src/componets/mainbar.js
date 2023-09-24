@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState, useEffect} from "react";
 import { Link } from 'react-router-dom';
 import Frame1 from '../images/Frame1.png'
 import back from '../images/back.jpg'
@@ -12,14 +12,14 @@ import  '../css/mainbar.css';
 
 const MainBar =() =>{
 
-
+    
 
 
     return(
         <>
         
         <div className="maincontainer">
-        <h4 className="headtext">Already have an account?<Link to="/signup">signup</Link></h4>
+        <h4 className="dtext">Already have an account?<Link to="/signup">signup</Link></h4>
         <div className="main">
             
             <div className="content">
@@ -34,7 +34,7 @@ const MainBar =() =>{
                 as desktop publishers bundled the text with their software.<br></br>Vincent Obi <img src={Vector1} className="log2" alt="log2"></img></p>
             </div>
         </div>
-       
+        {/* <h4 className="text">Already have an account?<Link to="/signup">signup</Link></h4> */}
         <div className="subcontent">
         
         <div className="content1">

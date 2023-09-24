@@ -19,7 +19,7 @@ function App() {
        
           <Routes>
           
-          <Route path='/' Component={MainBar}  />
+          <Route path='/mainbar' Component={MainBar}  />
 
          <Route path='/signup' Component={SignUp} />
 

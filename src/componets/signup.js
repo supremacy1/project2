@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import signup from '../css/signup.css'
 import Union from '../images/Union.svg'
 import Vector1 from '../images/Vector1.svg'
+import { Link } from 'react-router-dom';
+
 
 
 const SignUp = () => {
@@ -30,7 +32,7 @@ const SignUp = () => {
                 as desktop publishers bundled the text with their software.<br></br>Vincent Obi <img src={Vector1} className="log2" alt="logs"></img></p>
             </div>
         </div>
-        <h5 className="head">Back</h5>
+        <Link to ="/mainbar"><h5 className="head">Back</h5></Link>
         <h6 className="p2">STEP 01/03</h6><h4 className="p">Personal info</h4>
         <div className="container2">
             <div className="head">
